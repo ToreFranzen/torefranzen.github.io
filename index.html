@@ -9,8 +9,7 @@
   <meta name="author" content="Tore Franzen">
 
   
-  <meta name="description" content="This will be the Last post EVER!
-">
+  <meta name="description" content="Intro For those that don&rsquo;t know, BrewPi is the answer to modern man&rsquo;s problem of controlling Beer fermentation temperature. Originally, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -39,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Bloging n' Stuff</a></h1>
   
-    <h2>Yeah... More Stuff</h2>
+    <h2>Yeah... I'll write words and they will magically apear on your screen</h2>
   
 </hgroup>
 
@@ -66,6 +65,55 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/09/04/hacking-the-brewpi-intro/">Intro to Hacking the BrewPi</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-09-04T00:29:17-04:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>12:29 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Intro</h2>
+
+<p>For those that don&rsquo;t know, <a href="http://www.brewpi.com/">BrewPi</a> is the answer to modern man&rsquo;s problem of controlling Beer fermentation temperature. Originally, it was a Raspberry Pi coupled with an Arduino (and more currently a Photon Spark). The Arduino (or Spark) acts as the work horse of the operation by measuring temperature and controlling heat and/or cooling for the fermentation chamber. The Raspberry Pi would act as a web server, displaying information and sending commands to the Arduino (or Spark). The creators of the project have also kindly posted their code in git hub <a href="https://github.com/BrewPi">https://github.com/BrewPi</a>.</p>
+
+<h2>WTF Are you trying to do? The thing works already!</h2>
+
+<p>What I would like to do is remove the Arduino and still have a functioning setup. Initially, this looks like it might take some time and thought. I want to do this as a learning experiment. There is no intention on sabotaging the efforts of the BrewPi team. They rightfully deserve credit and I have the utmost respect for them and the product they have created.</p>
+
+<p>With all that out of the way, I have come up with a few ideas of how I can make a stand alone BrewPi out of the Raspberry Pi (3):</p>
+
+<ul>
+<li>Understand the Arduino/Spark code and rewrite into python code (or something else, i.e. bash) to run in an infinite loop on the pi</li>
+<li>Create wrapper code around the existing firmware and simulate on the pi</li>
+<li>Something else?</li>
+<li>Forget the whole thing and go buy an Arduino</li>
+</ul>
+
+
+<h2>So Whats Next?</h2>
+
+<p>Not much besides delving into the <a href="https://github.com/BrewPi">BrewPi git hub repo</a> and trying to figure out how the darn thing works. So far, I have learned about the <a href="https://en.wikipedia.org/wiki/PID_controller">PID algorithm</a> and am currently figuring out how its implemented in the BrewPi. (Note: I have a Computer Science background and not one in electronics or control theory). Hopefully there will be more status updates to come.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -107,6 +155,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/09/04/hacking-the-brewpi-intro/">Intro to Hacking the BrewPi</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2016/09/04/last/">Last!</a>
